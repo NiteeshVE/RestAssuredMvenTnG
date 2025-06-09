@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-31T17:30:03Z" name="Default Suite" finished-at="2025-05-31T17:30:15Z" duration-ms="12208">
+    <groups>
+    </groups>
+    <test started-at="2025-05-31T17:30:03Z" name="RestAssuredMvenTnG" finished-at="2025-05-31T17:30:15Z" duration-ms="12208">
+      <class name="ApiTestcases.TestDDT">
+        <test-method signature="testcreateuser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:ApiTestcases.TestDDT@7bbc8656]" started-at="2025-05-31T17:30:04Z" name="testcreateuser" data-provider="AllData" finished-at="2025-05-31T17:30:12Z" duration-ms="8099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA['nikk001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nikk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Paul]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[nikk@yopmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Nikk@12345]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateuser -->
+        <test-method signature="testcreateuser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:ApiTestcases.TestDDT@7bbc8656]" started-at="2025-05-31T17:30:12Z" name="testcreateuser" data-provider="AllData" finished-at="2025-05-31T17:30:14Z" duration-ms="1802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA['john002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[John@yopmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Nikk@12345]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[876543210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateuser -->
+        <test-method signature="testcreateuser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:ApiTestcases.TestDDT@7bbc8656]" started-at="2025-05-31T17:30:14Z" name="testcreateuser" data-provider="AllData" finished-at="2025-05-31T17:30:15Z" duration-ms="1558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA['maxwell003]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Maxwell]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lee]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[maxwell@yopmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Nikk@12345]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[987656566]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateuser -->
+        <test-method signature="testgetuser(java.lang.String)[pri:2, instance:ApiTestcases.TestDDT@7bbc8656]" started-at="2025-05-31T17:30:15Z" name="testgetuser" data-provider="UserNamesData" finished-at="2025-05-31T17:30:15Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NegativeArraySizeException: -1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NegativeArraySizeException: -1
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: java.lang.NegativeArraySizeException: -1
+at ApiUtilities.DataProviders.UserNamesDataProvider(DataProviders.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetuser -->
+      </class> <!-- ApiTestcases.TestDDT -->
+    </test> <!-- RestAssuredMvenTnG -->
+  </suite> <!-- Default Suite -->
+</testng-results>
