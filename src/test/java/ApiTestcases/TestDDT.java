@@ -14,7 +14,7 @@ public class TestDDT
     @Test(priority = 1, dataProvider ="AllData", dataProviderClass = DataProviders.class)
     public void testcreateuser(String userId, String userName, String fName, String lName,String eMail, String password, String phone)
     {
-
+          // this test case will run 3 time
 
         user reqbody = new user();
 
@@ -35,7 +35,7 @@ public class TestDDT
     @Test(priority = 2, dataProvider = "UserNamesData", dataProviderClass = DataProviders.class)
     public void testgetuser(String username)
     {
-
+// this test case have some issue and will get ignored
         Response response=UserEndPoints.getUser(username);
 
         System.out.println(username);
@@ -48,7 +48,7 @@ public class TestDDT
         System.out.println("Test case 2 success !!");
 
     }
-// test case 2 is not working
+
 
 
 }
