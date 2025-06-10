@@ -48,8 +48,8 @@ public class TestDDT
         System.out.println("Test case 2 success !!");
 
     }
+// test case 2 is not working
 
-    //driver close here
 
 }
 

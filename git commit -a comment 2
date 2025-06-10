@@ -1,0 +1,16 @@
+
+# Please enter the commit message for your changes. Lines starting
+x# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	modified:   src/test/java/ApiTestcases/TestDDT.java
+#	modified:   test-output/Default Suite/RestAssuredMvenTnG.html
+#	modified:   test-output/Default Suite/RestAssuredMvenTnG.xml
+#	modified:   test-output/emailable-report.html
+#	modified:   test-output/index.html
+#	modified:   test-output/junitreports/TEST-ApiTestcases.TestDDT.xml
+#	modified:   test-output/old/Default Suite/methods-alphabetical.html
+#	modified:   test-output/old/Default Suite/methods.html
+#	modified:   test-output/testng-results.xml
+#
